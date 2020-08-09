@@ -1,0 +1,313 @@
+@font-face{
+    src: url("fonts/Roboto/Roboto-BoldItalic.ttf");
+    font-family: robot;
+}
+@font-face{
+    src: url("fonts/PT_Sans/PTSans-BoldItalic.ttf");
+    font-family: pt;
+}
+@font-face{
+    src: url("fonts/Oleo_Script/OleoScript-Regular.ttf");
+    font-family: Oleo;
+}
+@font-face{
+    src: url("fonts/Lobster/Lobster-Regular.ttf");
+    font-family: okasha;
+}
+@font-face{
+    src: url("fonts/Shrikhand/Shrikhand-Regular.ttf");
+    font-family: tanoli;
+}
+
+.main-Div{
+    background-image:radial-gradient(rgb(11, 194, 255),rgb(1, 38, 97));
+    border-radius: 10px;
+    width: 500px;
+    margin: 50px auto;
+}
+.first-Row{
+    display: flex;
+    justify-content: space-between;
+}
+#quiz-App{
+    font-family: okasha;
+    font-size: 40px;
+    color: rgb(115, 220, 255);
+}
+#time {
+    display: flex;
+}
+#time div{
+    font-family: okasha;
+    color: rgb(115, 220, 255);
+    font-size: 38px;
+}
+.fix{
+    margin-left: 10px;
+    color: black !important;
+}
+#colun{
+    margin: -11px 10px;
+    font-size: 50px !important;
+}
+#second-Row{
+    width: 100%;
+    margin-top: 90px;
+}
+#button{
+    color: rgb(182, 237, 255);
+    margin-bottom: 90px;
+    margin-top: 90px;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: tanoli;
+    background-color: transparent;
+    border: 5px solid rgb(115, 220, 255);
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: .5s;
+}
+#button:hover{
+    background-color: rgb(115, 220, 255);
+    color:rgb(3, 63, 160) ;
+    cursor: pointer;
+}
+#button:focus{
+    outline: none;
+}
+.none{
+    display: none;
+}
+#first-Zero,#second-Zero,#colun{
+    width: 30px;
+    text-align: center;
+}
+#first-Zero{
+    text-align: right !important;
+}
+#second-Zero{
+    margin-right: 20px;
+    text-align: left !important;
+}
+#questionHead{
+    font-size:50px;
+    text-align: center;
+    font-family: okasha;
+}
+#question{
+    font-size: 35px;
+    color: rgb(115, 220, 255);
+    font-family:pt;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+#label{
+    color:rgb(0, 24, 63);
+    font-size: 30px;
+    font-family: Oleo;
+    margin-left: 10px;
+
+}
+#inputDiv{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.buttonNext{
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    color: rgb(182, 237, 255);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: tanoli;
+    background-color: transparent;
+    border: 5px solid rgb(115, 220, 255);
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.buttonNext:hover{
+    background-color: rgb(115, 220, 255);
+    color:rgb(3, 63, 160) ;
+    cursor: pointer;
+}
+.buttonNext:focus{
+    outline: none;
+}
+#buttonNextDiv{
+    margin-top: 35px;
+    text-align: center;
+}
+.secondTimeRow{
+    margin-top: 40px !important;
+    padding-bottom: 20px;
+}
+.resultHead{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 80px;
+    font-weight: 600;
+    color: rgb(51, 38, 0);
+    font-family: tanoli;
+    margin-bottom: 50px;
+}
+.settingResult{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: robot;
+    font-weight: 500;
+    color: rgb(0, 24, 63);
+    letter-spacing: -1px;
+}
+.tryAgainDiv{
+    text-align: center;
+    margin-top: 50px;
+}
+.link{
+    color:rgb(182, 237, 255) ;
+    font-size: 50px;
+    font-family: tanoli;
+    background-color: transparent;
+    border: 6px solid rgb(115, 220, 255);
+    border-radius: 7px;
+    padding: 0px 5px;
+    letter-spacing: 2px;
+    transition-property: all;
+    transition-duration: .5s;
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+.link:hover{
+    background-color:rgb(115, 220, 255) ;
+    color:rgb(3, 63, 160) ;
+    
+}
+.againBtn:focus{
+    outline: none;
+}
+.big{
+    margin-top: 90px;
+}
+.center{
+    text-align: center;
+}
+.changeColor{
+    color: rgba(255, 4, 4, 0.644) !important;
+    font-weight: bold !important;
+}
+.colour{
+    color: sienna;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:440px){
+    #colun{
+        margin: 5px 10px !important;
+        font-size: 40px !important;
+    }
+    .main-Div{
+        border-radius: 0px;
+        width: 100%;
+        margin: 0px 0px;
+    }
+    #first-Zero,#second-Zero,#colun{
+        width: 20px;
+    }
+    #time div{
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    #second-Zero{
+        margin-right: 0px;
+    }
+    .first-Row{
+        margin: 0 10px;
+    }
+    #quiz-App{
+        letter-spacing: -2px;
+        font-size: 45px;
+        color: rgb(115, 220, 255);
+    }
+    #question{
+        font-size: 30px;
+        letter-spacing: -1px;
+        font-weight: 400 !important;
+        margin-left: 7px;
+    }
+    .resultHead{
+        font-size: 65px;
+        margin-bottom: 35px;
+    }
+    .settingResult{
+        margin-left: 15px;
+        font-size: 27px;
+        font-weight: 500;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:400px){
+    #colun{
+        margin: 6px 10px !important;
+        font-size: 35px !important;
+    }
+    #first-Zero,#second-Zero,#colun{
+        width: 14px;
+    }
+    #time div{
+        font-size: 26px;
+        margin-top: 15px;
+    }
+    #second-Zero{
+        margin-right: 5px !important;
+    }
+    .first-Row{
+        margin: 0px;
+    }
+    #quiz-App{
+        /* letter-spacing: -2px; */
+        font-size: 40px;
+    }
+    #question{
+        font-size: 30px;
+        letter-spacing: -1px;
+        margin-left: 7px;
+        margin-top: 28px;
+    }
+    .resultHead{
+        font-size: 65px;
+        margin-bottom: 35px;
+    }
+    .settingResult{
+        margin-left: 15px;
+        font-size: 26px;
+        font-weight: 500;
+    }
+}
