@@ -433,7 +433,7 @@ function extraDiv(){
     
     var ResultTimeTakendiv = document.createElement("div")
     ResultTimeTakendiv.setAttribute("class","settingResult")
-    var ResultTimeTakendivNode = document.createTextNode("Time Taken :" + " (" + firstZero.innerHTML + " " + ":" + " " + secondZero.innerHTML + ") " + "/ (5:00)")
+    var ResultTimeTakendivNode = document.createTextNode("Time Taken :" + " (" + firstZero.innerHTML + " " + ":" + " " + secondZero.innerHTML + ") " + "/ (7:00)")
     
     var grade = document.createElement("div")
     grade.setAttribute("class","settingResult")
