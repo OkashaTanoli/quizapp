@@ -52,7 +52,7 @@ var questions = [
         question:'Identify the tense used in the statement, "I will wait for you".',
         name:"tense",
         answers:[
-            "Futute Simple",
+            "Future Simple",
             "Future Perfect",
             "Future progressive",
             "Past perfect progressive"
